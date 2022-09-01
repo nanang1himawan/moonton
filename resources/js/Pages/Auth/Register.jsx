@@ -5,7 +5,6 @@ import Button from "@/Components/Button";
 // import InputError from "@/Components/InputError";
 import ValidationErrors from "@/Components/ValidationErrors";
 import { Head, Link, useForm } from "@inertiajs/inertia-react";
-import route from "vendor/tightenco/ziggy/src/js";
 
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
